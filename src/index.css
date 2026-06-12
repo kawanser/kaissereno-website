@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("./assets/fonts/FuturaCyrillicLight.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("./assets/fonts/FuturaCyrillicDemi.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("./assets/fonts/FuturaCyrillicBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@theme {
+
+    /* 
+        FONT FAMILY
+            theme: --font-[name]
+            usage: font-[name]
+    */
+    
+    --font-primary: 'Futura PT', sans-serif;
+    
+    /*
+        COLORS
+            theme: --color-[name]
+            usage: utility-token e.g. text-accent-400
+    */
+    --color-primary-50: #9dfbd5;
+    --color-primary-100: #64e8ba;
+    --color-primary-200: #4eb893;
+    --color-primary-300: #398a6d;
+    --color-primary-400: #245f4a;
+    --color-primary-500: #12372a;
+    --color-primary-600: #0d2d22;
+    --color-primary-700: #09241b;
+    --color-primary-800: #061b14;
+    --color-primary-900: #03110b;
+    --color-primary-950: #010906;
+
+     
+    --color-secondary-50: #d2f7de; 
+    --color-secondary-100: #9feebb; 
+    --color-secondary-200: #86ca9e; 
+    --color-secondary-300: #6fa883; 
+    --color-secondary-400: #5a896a; 
+    --color-secondary-500: #436850; 
+    --color-secondary-600: #365440; 
+    --color-secondary-700: #263e2f; 
+    --color-secondary-800: #1a2c20; 
+    --color-secondary-900: #0e1a12; 
+    --color-secondary-950: #07100a;
+
+      
+    --color-accent-50: #f2f8ed; 
+    --color-accent-100: #e9f4df; 
+    --color-accent-200: #d6e8c5; 
+    --color-accent-300: #c9dab9; 
+    --color-accent-400: #bcccac; 
+    --color-accent-500: #adbc9f; 
+    --color-accent-600: #89957d; 
+    --color-accent-700: #646e5c; 
+    --color-accent-800: #42493c; 
+    --color-accent-900: #23271f; 
+    --color-accent-950: #141611;
+
+    --color-sec-accent-50: #ffffff;
+    --color-sec-accent-100: #ffffff;
+    --color-sec-accent-200: #fdfdf1;
+    --color-sec-accent-300: #fdfdf1;
+    --color-sec-accent-400: #fcfbe1;
+    --color-sec-accent-500: #fbfada;
+    --color-sec-accent-600: #c5c395;
+    --color-sec-accent-700: #91906d;
+    --color-sec-accent-800: #5e5d45;
+    --color-sec-accent-900: #313123;
+    --color-sec-accent-950: #1c1c13;
+
+}
